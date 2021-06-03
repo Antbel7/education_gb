@@ -39,7 +39,7 @@ public class Main {
             }
         int[] degrees = {12, -5, 8, 35, 22, 85};
         int minimum = degrees[0];
-        int maximum = degrees[1];
+        int maximum = degrees[0];
             for (int i = 0; i < degrees.length; i++) {
                 if (degrees[i]<=minimum) {minimum = degrees[i];}
             }
