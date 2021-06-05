@@ -8,13 +8,13 @@ public class Main {
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner ssc = new Scanner(System.in);
 
         int b =1;
         while (b == 1) {
             fort();
             System.out.println("Хотите сыграть еще? Если да - нажмите 1, если нет - нажмите 2");
-            b = sc.nextInt();
+            b = ssc.nextInt();
         } System.out.println("До новых встреч!!!");
 
     }
