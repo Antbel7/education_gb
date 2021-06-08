@@ -39,8 +39,6 @@ public class Main {
     }
 
 
-
-
     private static void initMap () {
         map = new char[SIZE][SIZE];
         for (int i = 0; i < SIZE; i++) {
