@@ -27,7 +27,7 @@ public class Dog extends AnimalHome {
         Scanner sc = new Scanner(System.in);
         int height = sc.nextInt();
         if (height >= maxJump) {
-            System.out.println("Кот слишком толстый, чтобы прыгнуть и " + maxJump + " метров");
+            System.out.println("Собака слишком толстый, чтобы прыгнуть и " + maxJump + " метров");
         } else {
             System.out.println("Столько собака сможет прыгнуть");
         }
