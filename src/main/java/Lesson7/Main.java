@@ -20,6 +20,7 @@ public class Main {
             } else System.out.println("Кот " + cat.getName() + " голодный!!!");
             cat.eat(plate);
         }
+        plate.addFood(100);
         plate.info();
     }
 

@@ -12,6 +12,9 @@ public class Plate {
         } else
             food -= n;
     }
+    public void addFood(int f){
+        food+=f;
+    }
     public void info() {
         System.out.println("plate: " + getFood());
     }
