@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Cat extends AnimalHome {
 
-   //public Cat(String name, String color) {
+   //public Lesson7.Cat(String name, String color) {
      // super(name, color);
 
 
